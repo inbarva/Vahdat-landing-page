@@ -11,26 +11,32 @@
             padding: 0;
             color: #333;
             direction: rtl; /* טקסט מימין לשמאל */
+            background-color: #ffffff; /* רקע לבן עבור שאר הדף */
         }
 
         header {
             background-color: #ffffff; /* רקע לבן ללוגו */
             color: #0033a0; /* צבע טקסט כחול כהה */
-            text-align: center;
+            text-align: left;
             padding: 10px;
             border-bottom: 5px solid #0033a0; /* קו כחול כהה מתחת ללוגו */
+            position: relative;
+            background-image: linear-gradient(to bottom, #ffffff 50%, #e3f2fd 50%);
+            background-size: 100% 50%;
+            background-repeat: no-repeat;
         }
 
         .logo {
             width: 100%;
-            max-width: 150px;
+            max-width: 200px; /* הגדלת הלוגו */
             display: block;
-            margin: 0 auto;
+            margin: 0;
         }
 
         h1 {
+            font-size: 2.5em; /* הגדלת שם הסוכנות */
             margin: 10px 0;
-            font-size: 2em;
+            padding-left: 10px; /* הסטה של השם */
         }
 
         .content {
@@ -95,7 +101,7 @@
         }
     </style>
 </head>
-<body class="colorful-background">
+<body>
     <header>
         <img src="https://scontent.fhfa1-1.fna.fbcdn.net/v/t39.30808-6/429857699_826067226200761_4787036527200557350_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=jo31kLuZ3lUQ7kNvgGR3s36&_nc_ht=scontent.fhfa1-1.fna&oh=00_AYAm4ZBrhzY3u9_kZxvGlYwF-pgVcjONcV7aJIw0j50jdA&oe=66DF5AA9" alt="הדת יהושע" class="logo">
         <h1>והדת יהושע - ניהול סיכוני ביטוח</h1>
@@ -141,11 +147,11 @@
 
     <footer>
         <p>צור קשר:</p>
-        <p>טלפון: <a href="tel:0546680236">0546680236</a></p>
-        <p>מייל: <a href="mailto:inbar.va@gmail.com">inbar.va@gmail.com</a></p>
-        <p>כתובת: היצירה 3, פתח תקווה</p>
-        <p>רשתות חברתיות:</p>
-        <p><a href="#">פייסבוק</a> | <a href="#">וואטסאפ</a> | <a href="#">אינסטגרם</a></p>
+        <p>טלפון משרד: 03-5107073</p>
+        <p>נייד: <a href="tel:0546680236">0546680236</a></p>
+        <p>וואטס אפ לשליחת מסמכים: <a href="https://wa.me/0549662335">0549662335</a></p>
+        <p>מייל ראשי: <a href="mailto:wahdat2008@gmail.com">wahdat2008@gmail.com</a></p>
+        <p>כתובת: היצירה 3 פתח תקווה</p>
     </footer>
 </body>
 </html>
